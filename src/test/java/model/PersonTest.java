@@ -12,7 +12,7 @@ class PersonTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
-		person = new Person(1156218, "Allison", "Coopersmith", 16108);	
+		person = new Person(0123456, "Allison", "Coopersmith", 16108);	
 	}
 
 	@AfterEach
@@ -53,6 +53,6 @@ class PersonTest {
 	
 	@Test
 	void testPersonToString_printsCorrectString() {
-		assertEquals("Name = Allison Coopersmith, employee ID = 1156218, zip code = 16108, carpool = 0", person.toString());
+		assertEquals("Name = Allison Coopersmith, employee ID = 0123456, zip code = 16108, carpool = 0", person.toString());
 	}
 }
